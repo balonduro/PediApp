@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="idVenta"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tvIdVenta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="idEmp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tvIdEmp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="idUs"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tvIdUs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="total"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tvTotal" />
+</LinearLayout>

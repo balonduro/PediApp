@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="lamca.software.com.pediapp.Productos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Productos"
+        android:textColor="#fa4f14"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textColor="#fa4f14"
+        android:textSize="15sp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/etCant"
+        android:hint="Cantidad"
+        android:textColorHint="#fa4f14"/>
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="95dp"
+        android:textColor="#fa4f14"
+        android:textSize="15sp"
+        android:hint="Precio"
+        android:textColorHint="#fa4f14"
+        android:id="@+id/etPrec"
+        android:enabled="true" />
+
+    <AutoCompleteTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fa4f14"
+        android:textSize="15sp"
+        android:id="@+id/actvNomProd"
+        android:hint="Consulte un Producto"
+        android:textColorHint="#fa4f14"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:textColor="#ffffff"
+        android:background="#fa4f14"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:id="@+id/btnAgregar"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="175dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modficar"
+        android:textColor="#ffffff"
+        android:background="#fa4f14"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:id="@+id/btnModificar"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="245dp"
+        android:enabled="false" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Compra"
+        android:textColor="#ffffff"
+        android:background="#fa4f14"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:id="@+id/btnFinalizar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvProd"
+        android:layout_below="@+id/btnAgregar"
+        android:layout_alignStart="@+id/etCant"
+        android:layout_marginTop="25dp"
+        android:layout_above="@+id/btnFinalizar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProducto"
+        android:layout_below="@+id/actvNomProd"
+        android:layout_alignStart="@+id/actvNomProd"
+        android:layout_alignEnd="@+id/actvNomProd"
+        android:text="AutocompleteTexView" />
+
+</RelativeLayout>

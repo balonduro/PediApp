@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Producto"
+        android:textColor="#fa4f14"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/tvNomProd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Cantidad"
+        android:textColor="#fa4f14"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/tvCantProd"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tvNomProd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Precio"
+        android:textColor="#fa4f14"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/tvPrecProd"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tvCantProd" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Total"
+        android:textColor="#fa4f14"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/tvTotal"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/tvPrecProd" />
+</RelativeLayout>

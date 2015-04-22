@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PediApp</string>
+    <string name="action_settings">Historial</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tiendas">Tiendas</string>
+    <string name="title_activity_reg_usuario">RegUsuario</string>
+    <string name="title_activity_productos">Productos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_historial">Historial</string>
+
+</resources>
